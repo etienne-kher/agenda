@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="agenda.css">
+	<title>Formulaire</title>
+</head>
+<body>
+	<header>
+		<h1>Nouveau Créneau</h1>
+	</header>
+	<main>
+		<form>
+			<!--quel jour mois année ,entre quelle heur et quellle h , important ? !-->
+			<label for="jour">Veuillez saisir la date :</label>
+   			<input type="date" id="jour" name="j" required>
+   			<br>
+   			<section>
+   				<label for="h1">Entre</label><input class="numb" type="number" id="h1" name="h1" min="7" max="17" required>
+   				<label for="h2">heure et</label><input class="numb" type="number" id="h2" name="h2" min="8" max="18" required><label>heure</label>
+   			</section>
+   			<br>
+   			<label>Un créneau trés important ?</label> <input id="important" type="checkbox" name="oui">
+   			<br>
+
+   			<a href="agenda.html"><input id="sub" type="submit" value="Nouveau créneau"></input></a>
+		</form>
+	</main>
+	<footer>
+		Copyright 2019 Agenda | By Etienne Kher
+	</footer>
+</body>
+</html>

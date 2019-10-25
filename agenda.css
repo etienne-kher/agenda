@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+body{
+	margin: 0;
+	background: linear-gradient(212deg, rgba(251,251,247,1) 0%, rgba(193,236,164,1) 38%, rgba(205,236,197,1) 57%, rgba(249,242,249,1) 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+header{
+	padding-bottom: 1%;
+	font-family: 'Anton', sans-serif;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 4px 15px;
+}
+
+th{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+}
+
+td{margin: 1%;}
+
+div{
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffffbf;
+	width: 170px;
+	height: 250px;
+	border-radius: 0px 0px 10px 10px;
+}
+h1{	background-color: #ed3131;
+	color: white;
+	text-align: center;
+	margin: 0;
+
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	margin-left: 10%;
+
+}
+b{
+	margin-left: 10%;
+}
+
+button{
+	background-color:#ed3131;
+	border: none;
+	padding: 2%;
+	color: white;
+	box-shadow: 5px 4px 3px gray;
+	font-family: 'Anton', sans-serif;
+	transition: all 0.8s ease-out;
+}
+button:hover{
+	transform: scale(1.2);
+}
+.urg{
+	text-transform: uppercase;
+	color: red;
+	font-size: 90%;
+}
+.weekend{
+	background-color: #ff000075;
+}
+.notinmonth{
+	color : black;
+	background-color: grey;
+}
+footer{
+	margin-top: 1%;
+	text-align: center;
+	background-color: #5f9ed540;
+	padding: 2%;
+	font-family: 'Anton', sans-serif;
+	color: white;
+	text-shadow: 4px 4px 5px black;
+}
+
+/*formulaire*/
+
+form{
+	display: flex;
+	flex-direction: column;
+	background-color: #f422082e;
+	width: 45%;
+	align-items: center;
+	border-radius: 30px;
+	box-shadow: 4px 4px 5px grey;
+
+}
+section{text-align: center;}
+.numb{
+	text-align: right;
+	width: 10%;
+	margin-inline: 1%;
+}
+
+input{
+	text-align: center;
+}
+
+label, input {
+	font-size: 200%;
+	margin: 4%;
+	font-family: 'Anton', sans-serif;
+	border-radius: 15px;
+	border-style: none;
+}
+
+label{
+	text-shadow: 3px 1px 3px white;
+}
+
+#important{
+	transform: scale(1.5);
+}
+#sub{
+	background-color:#ed3131;
+	border: none;
+	padding: 2%;
+	color: white;
+	box-shadow: 5px 4px 3px gray;
+	font-family: 'Anton', sans-serif;
+	transition: all 0.8s ease-out;
+}
+#sub:hover{
+	background-color: #36e836;
+}
