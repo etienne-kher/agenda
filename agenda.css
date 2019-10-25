@@ -141,9 +141,12 @@ label{
 	background-color: #36e836;
 }
 img {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-  width:30%;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+ 	width: 10%;
+	position: absolute;
+	top: 30%;
+	left: 10%;
 }
 
 @keyframes shake {
